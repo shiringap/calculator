@@ -1,12 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <h1>HI</h1>
+  <div id="app">
+    <calculator/>
+  </div>
 </template>
-
+import Calculator from "@/components/Calculator";
 <script>
 
-export default {
+import Calculator from "@/components/Calculator";
 
+export default {
+  name: 'App',
+  components: {
+    Calculator
+  }
 }
 </script>
 
