@@ -26,12 +26,12 @@
   "main": ".eslintrc.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shiringap/new.git"
+    "url": "git+https://github.com/shiringap/calculator.git"
   },
   "author": "shirin-tavus",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shiringap/new/issues"
+    "url": "https://github.com/shiringap/calculator/issues"
   },
-  "homepage": "https://github.com/shiringap/new#readme"
+  "homepage": "https://github.com/shiringap/calculator#readme"
 }
