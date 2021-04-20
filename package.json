@@ -21,5 +21,17 @@
     "eslint-plugin-vue": "^7.0.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2"
-  }
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiringap/new.git"
+  },
+  "author": "shirin-tavus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shiringap/new/issues"
+  },
+  "homepage": "https://github.com/shiringap/new#readme"
 }
