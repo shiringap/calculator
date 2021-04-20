@@ -4,7 +4,6 @@
 </template>
 
 <script>
-// import HelloWorld from './components/Buttons.vue'
 
 export default {
 
