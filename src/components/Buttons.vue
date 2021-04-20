@@ -48,7 +48,28 @@
 
 <script>
 export default {
+  name: 'Buttons',
+  data() {
+    return {
+      formula: "",
+      result: 0
+    }
+  },
 
+  methods: {
+    operate(element) {
+      console.log("operate..");
+      this.formula += element;
+      // console.log("this.formula:");
+      // console.log(this.formula);
+    },
+    equal(){
+      console.log("equal..");
+      this.result = eval(this.formula);
+      // console.log("this.formula:");
+      // console.log(this.formula);
+    },
+  }
 }
 </script>
 
