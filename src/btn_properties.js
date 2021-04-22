@@ -1,115 +1,115 @@
-export const roundNum = (number) => {
+export const roundUp = (number) => {
     if (Number.isInteger(number)) {
         return number;
     }
     return +number.toFixed(3);
 }
 
-export function getButtonsProperties(){
+export function getButtonsOptions(){
     return [
         {
-            func: this.off,
-            value:'OFF',
+            action: this.onOff,
+            value: 'OFF',
         },
         {
-            func: this.sign,
-            value:'+/-',
+            action: this.sign,
+            value: '+/-',
         },
         {
-            func: this.radic,
-            value: 'RAD',
+            action: this.sqrt,
+            value: '√',
         },
         {
-            func: this.percentage,
-            value:'%',
+            action: this.percent,
+            value: '%',
         },
         {
-            func: this.memoryClear,
-            value:'MRC',
+            action: this.mrc,
+            value: 'MRC',
         },
         {
-            func: this.mem_minus,
-            value:'M-',
+            action: this.m_minus,
+            value: 'M-'
         },
         {
-            func: this.mem_plus,
-            value:'M+',
+            action: this.m_plus,
+            value: 'M+',
         },
         {
-            func: this.substract,
-            value:'-',
+            //--------------------------
+            action: this.subtract,
+            value: '-',
         },
         {
-            func: this.setNumber,
-            value:'7',
+            action: this.append,
+            value: '7',
             number: '7',
         },
         {
-            func: this.setNumber,
-            value:'8',
+            action: this.append,
+            value: '8',
             number: '8',
         },
-
         {
-            func: this.setNumber,
-            value:'9',
+            action: this.append,
+            value: '9',
             number: '9',
         },
         {
-            func: this.multiply,
-            value:'x',
+            action: this.multiply,
+            value: 'x',
         },
         {
-            func: this.setNumber,
-            value:'4',
+            action: this.append,
+            value: '4',
             number: '4',
         },
         {
-            func: this.setNumber,
-            value:'5',
+            action: this.append,
+            value: '5',
             number: '5',
         },
         {
-            func: this.setNumber,
-            value:'6',
+            action: this.append,
+            value: '6',
             number: '6',
         },
         {
-            func: this.divide,
-            value:'/',
+            action: this.divide,
+            value: '/',
         },
         {
-            func: this.setNumber,
-            value:'1',
+            action: this.append,
+            value: '1',
             number: '1',
         },
         {
-            func: this.setNumber,
-            value:'2',
+            action: this.append,
+            value: '2',
             number: '2',
         },
         {
-            func: this.setNumber,
-            value:'3',
+            action: this.append,
+            value: '3',
             number: '3',
         },
         {
-            func: this.setNumber,
-            value:'0',
+            action: this.append,
+            value: '0',
             number: '0',
         },
         {
-            func: this.decimal,
-            value:'.',
+            action: this.decimal,
+            value: '.',
         },
         {
-            func: this.equal,
-            value:'=',
+            action: this.equal,
+            value: '=',
         },
-
         {
-            func: this.add,
-            value:'+',
+            action: this.add,
+            additionalClass: "button_wrapper--plus ",
+            value: '+',
         },
     ]
 }
