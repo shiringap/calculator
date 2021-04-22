@@ -194,5 +194,4 @@ export default {
   grid-template-rows: 14px repeat(5, 18px)
   gap: 6px 4px
   padding: 8px 0 9px
-
 </style>
