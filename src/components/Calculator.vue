@@ -145,6 +145,7 @@ export default {
   }
 }
 </script>
+
 <style lang="sass">
 .calculator
   background: linear-gradient(180deg, #2771AA -3.6%, #081925 71.1%)
