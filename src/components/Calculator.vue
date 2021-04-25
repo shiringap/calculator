@@ -149,5 +149,54 @@ export default {
 </script>
 
 
-<style>
+<style lang="sass">
+.calculator
+  background: linear-gradient(180deg, #2771AA -3.6%, #081925 71.1%)
+  max-width: 130px
+  padding: 1px
+  border-radius: 7px
+  margin-left: auto
+  margin-right: auto
+
+
+.calculator_body
+  padding-top: 26px
+  padding-left: 10px
+  padding-right: 10px
+  background: linear-gradient(180deg, #4EA4DC 51.6%, #081925 161.2%)
+  border-radius: 8px
+
+.calculator_screen_wrapper
+  padding: 2px 2px 1px
+  height: 27px
+  border-radius: 3px
+  background: linear-gradient(0deg, #18476B -2.9%, #2771AA 59.3%, #081925 148.8%)
+
+.calculator_screen
+  display: flex
+  background: #DFE3D8
+  height: 27px
+  padding-right: 4px
+  border-radius: 3px
+  font-size: 13px
+  text-align: right
+  line-height: 27px
+  overflow-x: hidden
+  padding-left: 5px
+  align-items: center
+
+  &_memory
+    font-size: 3px
+    margin: 0
+
+  &_display
+    margin: 0 0 0 auto
+
+.buttons_container
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  grid-template-rows: 14px repeat(5, 18px)
+  gap: 6px 4px
+  padding: 8px 0 9px
+
 </style>
